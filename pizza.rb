@@ -77,10 +77,19 @@ puts "hello my little friend, welcome to Scarface pizzeria, pizza's and 40's"
 	user_input = gets.chomp.to_i #asking user for input while turning string into integer
 	# puts user_input
 	user_input.times do # putting how ever many times to screen
-		puts random_pizza
+		
 		if pizza_size == "small"
-			puts "$5.00"
+			puts "$5.00 liitle man"
+		elsif pizza_size == "medium" 
+			puts "10 bucks homie"
+		elsif pizza_size == "large"
+			puts "15.99 lil lady"
+		elsif pizza_size == "super"
+			puts "ok lil homie 25"
+		elsif pizza_size == "giganto"
+			puts "daayyyum homie going hard with that money 35 dollaz man"
 		end
+	puts random_pizza
 	end
 
 

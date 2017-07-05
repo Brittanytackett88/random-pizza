@@ -67,7 +67,7 @@ def desserts
 # random_pizza = pizza_size, crust, pizza_sauce, cheese, meat, toppings, drinks, sides, dressings, desserts #calling all functions
 random_pizza = [] # an array which you can call anything you want
 random_pizza << pizza_size << crust << pizza_sauce << cheese << meat << toppings << drinks << sides << dressings << desserts #pushing to an array
-puts random_pizza
+
 	end
 # random_pizza
 puts "hello my little friend, welcome to Scarface pizzeria, pizza's and 40's"
@@ -76,21 +76,42 @@ puts "hello my little friend, welcome to Scarface pizzeria, pizza's and 40's"
 
 	user_input = gets.chomp.to_i #asking user for input while turning string into integer
 	# puts user_input
-	user_input.times do # putting how ever many times to screen
+	user_input.times do # putting how ever many pizzas to screen
 		
-		if pizza_size == "small"
-			puts "$5.00 liitle man"
-		elsif pizza_size == "medium" 
-			puts "10 bucks homie"
-		elsif pizza_size == "large"
-			puts "15.99 lil lady"
-		elsif pizza_size == "super"
-			puts "ok lil homie 25"
-		elsif pizza_size == "giganto"
-			puts "daayyyum homie going hard with that money 35 dollaz man"
-		end
-	puts random_pizza
-	end
+		  rand = random_pizza
+if rand[0] == "small"
+puts "5 Dollars little man"
+puts rand
+end
+    end
+
+
+
+
+	# 	if pizza_size == "small"
+			
+	# 		puts "$5.00 liitle man""$5.00 liitle man"
+			
+	# 	elsif pizza_size == "medium" 
+			
+	# 		puts "10 bucks homie"
+		
+	# 	elsif pizza_size == "large"
+			
+			
+	# 		puts "15.99 lil lady"
+			
+	# 	elsif pizza_size == "super"
+			
+	# 		puts "ok lil homie 25"
+			
+	# 	elsif pizza_size == "giganto"
+			
+	# 		puts "daayyyum homie going hard with that money 35 dollaz man"
+			
+	# 	end
+	
+	# end
 
 
  

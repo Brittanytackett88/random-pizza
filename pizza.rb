@@ -69,7 +69,7 @@ random_pizza = [] # an array which you can call anything you want
 random_pizza << pizza_size << crust << pizza_sauce << cheese << meat << toppings << drinks << sides << dressings << desserts #pushing to an array
 
 	end
-# random_pizza
+
 puts "hello my little friend, welcome to Scarface pizzeria, pizza's and 40's"
 
 	puts "how many d'you want man?"
@@ -78,10 +78,26 @@ puts "hello my little friend, welcome to Scarface pizzeria, pizza's and 40's"
 	# puts user_input
 	user_input.times do # putting how ever many pizzas to screen
 		
-		  rand = random_pizza
-if rand[0] == "small"
+		  rand = random_pizza # calling out random pizzas
+if rand[0] == "small" # 0 is the first element or a thing in your array, all arrays start with a position of 0
 puts "5 Dollars little man"
 puts rand
+
+elsif rand[0] == "medium"
+	puts "10 bucks homie"
+	puts rand
+elsif rand[0] == "large"
+	puts "15 dollars mayne"
+puts rand
+elsif rand[0] == "super"
+	puts "ok lil homie $25"
+	puts rand
+elsif rand[0] == "giganto"
+	puts "daayyyum homie going hard with that money 35 dollaz man"
+	puts rand
+
+
+
 end
     end
 

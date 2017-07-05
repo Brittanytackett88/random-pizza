@@ -74,8 +74,11 @@ puts "hello my little friend, welcome to Scarface pizzeria, pizza's and 40's"
 
 	puts "how many d'you want man?"
 
-	user_input = gets.chomp
-	puts user_input
+	user_input = gets.chomp.to_i #asking user for input while turning string into integer
+	# puts user_input
+	user_input.times do # putting how ever many times to screen
+		puts random_pizza
+	end
 
 
  

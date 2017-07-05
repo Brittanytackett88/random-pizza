@@ -78,6 +78,9 @@ puts "hello my little friend, welcome to Scarface pizzeria, pizza's and 40's"
 	# puts user_input
 	user_input.times do # putting how ever many times to screen
 		puts random_pizza
+		if pizza_size == "small"
+			puts "$5.00"
+		end
 	end
 
 

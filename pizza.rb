@@ -69,9 +69,14 @@ random_pizza = [] # an array which you can call anything you want
 random_pizza << pizza_size << crust << pizza_sauce << cheese << meat << toppings << drinks << sides << dressings << desserts #pushing to an array
 puts random_pizza
 	end
-random_pizza
-# puts "hello my little friend, welcome to Scarface pizzeria, pizza's and 40's"
-# 	puts "d'you want something man?"
+# random_pizza
+puts "hello my little friend, welcome to Scarface pizzeria, pizza's and 40's"
+
+	puts "how many d'you want man?"
+
+	user_input = gets.chomp
+	puts user_input
+
 
  
 # puts "you wan't some coke with that?"
